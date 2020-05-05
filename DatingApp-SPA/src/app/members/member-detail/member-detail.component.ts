@@ -49,7 +49,7 @@ export class MemberDetailComponent implements OnInit {
         description: photo.description
       });
     }
-    console.log(imageUrls)
+    // console.log(imageUrls)
     // debugger
     return imageUrls;
   }
