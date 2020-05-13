@@ -33,6 +33,7 @@ import { FileUploadModule } from 'ng2-file-upload';
 import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
 import { PaginationModule} from 'ngx-bootstrap/pagination';
 import {TimeAgoPipe} from 'time-ago-pipe';
+import { ButtonsModule } from 'ngx-bootstrap/buttons';
 
 
 export function tokkenGetter() {
@@ -70,6 +71,7 @@ export class CustomHammerConfig extends HammerGestureConfig {
       BsDropdownModule.forRoot(),
       BsDatepickerModule.forRoot(),
       TabsModule.forRoot(),
+      ButtonsModule.forRoot(),
       RouterModule.forRoot(appRoutes),
       NgxGalleryModule,
       PaginationModule.forRoot(),
